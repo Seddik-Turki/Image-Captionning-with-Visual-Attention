@@ -2,6 +2,8 @@
 Given an image, the goal is to generate a caption 
 The model uses Spatial attention to focus on relevant parts of the image when generating each token.
 
+All the code for data handling, model training and inference can be found in the notebook.
+
 ## Model Architecture
 The model architecture built in this tutorial is shown below.
 Features are extracted from the image, and passed to the cross-attention layers of the Transformer-decoder.
