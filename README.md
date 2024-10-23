@@ -27,4 +27,5 @@ By inspecting the attention weights of the cross attention layers you will see w
  * `Inference`: Generating captions for new images.
 
 ## Example
+The model generates each token when focusing on some parts of the image which are relevant to the token just like the example below </br>
 ![Gen](images/generate.png)
