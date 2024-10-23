@@ -8,7 +8,7 @@ Features are extracted from the image, and passed to the cross-attention layers 
 
 The transformer decoder is mainly built from attention layers. It uses self-attention to process the sequence being generated, and it uses cross-attention to attend to the image.
 
-By inspecting the attention weights of the cross attention layers you will see what parts of the image the model is looking at as it generates words.
+By inspecting the attention weights of the cross attention layers you will see what parts of the image the model is looking at as it generates words.</br>
 ![Architecture](images/model.png)
 
 ## Project Structure
